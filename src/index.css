@@ -1,7 +1,22 @@
 * {
+    box-sizing: border-box;
+}
+
+body,
+#root {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    position: relative;
     width: 100vw;
     height: 100vh;
 }
+
+/* html,
+body,
+#root {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #272727;
+} */
