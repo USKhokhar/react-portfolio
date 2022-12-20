@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
 
-body,
+/* body,
 #root {
     margin: 0;
     padding: 0;
     position: relative;
     width: 100vw;
     height: 100vh;
-}
+} */
 
 /* html,
 body,
@@ -19,4 +19,5 @@ body,
     margin: 0;
     padding: 0;
     background: #272727;
+    position: relative;
 } */

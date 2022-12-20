@@ -1,10 +1,10 @@
 import React from 'react'
-import Space from './components/Space'
+import IntroPage from './components/IntroPage'
 
 function App() {
   return (
     <>
-      <Space />
+      <IntroPage />
     </>
   )
 }
