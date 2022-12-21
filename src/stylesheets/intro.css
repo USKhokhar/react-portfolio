@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+.introDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    bottom: 2rem;
+    gap: 1rem;
+}
+
+.textBox {
+    background: linear-gradient(92.83deg, rgba(13, 138, 48, 0.76) 0.27%, #42532D 47.82%, rgba(0, 48, 13, 0.87) 99.2%);
+    border: 3px solid #ABD602;
+    border-radius: 16px;
+    width: 70%;
+    max-width: 40rem;
+    padding: 0.5rem 1rem;
+}
+
+.h3 {
+    font: normal 300 1.2rem/1.5rem 'Montserrat', sans-serif;
+    color: #ff1;
+}
+
+.imgContainer {
+    width: 10rem;
+    height: 10rem;
+    background: url('../assets/Avatar.png') no-repeat center center;
+    background-size: contain;
+    border: 1px solid #ABD602;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+.enterPortal {
+    width: 10rem;
+    background: #ff1;
+    padding: 0.5rem 0;
+    float: right;
+    font: normal 400 1rem/1rem 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.enterPortal:active {
+    transition: 250ms;
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}

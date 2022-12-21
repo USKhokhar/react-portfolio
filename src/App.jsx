@@ -1,10 +1,10 @@
 import React from 'react'
-import IntroPage from './components/IntroPage'
+import Home from './components/Home'
 
 function App() {
   return (
     <>
-      <IntroPage />
+      <Home />
     </>
   )
 }
