@@ -2,4 +2,8 @@
     box-sizing: border-box;
     font-size: 16px;
     overflow: hidden;
+    cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1232.ani),
+        url(https://cur.cursors-4u.net/games/gam-13/gam1232.png),
+        auto !important;
+
 }

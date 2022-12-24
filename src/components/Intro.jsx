@@ -1,12 +1,15 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import Typed from 'react-typed'
+// import { motion } from 'framer-motion'
 import '../stylesheets/intro.css'
 
-const handleEnter = () => {
-  console.log(1);
-}
-
 function Intro() {
+  const navigate = useNavigate();
+  
+  const handleEnter = () => {
+    navigate('/World');
+  }
   return (
     <div className='introDiv'>
       <div className="imgContainer"></div>
@@ -18,7 +21,7 @@ function Intro() {
                     'Don\'t let this calmness fool you.',
                     'Save yourself by entering in the portal.',
                     'It will take you places...']}
-          backSpeed={30}
+          backSpeed={20}
           typeSpeed={60}
         />
         <button className="enterPortal" onClick={handleEnter}>
