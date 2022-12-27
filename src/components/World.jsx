@@ -25,7 +25,7 @@ function World() {
   return (
     <Canvas className='skyBox' style={extraStyle}>
         <OrbitControls enableDamping={true} enableZoom={false}/>
-        <Suspense fallback={null}>
+        <Suspense fallback='loading'>
           <Box args={[1000, 1000, 1000]}>
             <meshBasicMaterial side={THREE.BackSide} attach="material-0" map={rt} />
             <meshBasicMaterial side={THREE.BackSide} attach="material-1" map={lt} />
